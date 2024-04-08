@@ -1,3 +1,6 @@
+[![Terraform Static Analysis](https://github.com/jdickson1992/terraform-modules/actions/workflows/terraform_analysis.yml/badge.svg)](https://github.com/jdickson1992/terraform-modules/actions/workflows/terraform_analysis.yml)
+[![Tag Creation](https://github.com/jdickson1992/terraform-modules/actions/workflows/create_release.yml/badge.svg)](https://github.com/jdickson1992/terraform-modules/actions/workflows/create_release.yml)
+
 # Terraform Modules Repository
 
 Welcome! 🚀 
