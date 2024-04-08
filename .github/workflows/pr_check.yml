@@ -1,0 +1,17 @@
+name: 🕵️ PR Title Check
+    
+on:
+  pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  pr-checker:
+    name: 🕵️ PR Title Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Slashgear/action-check-pr-title@v4.3.0
+        with:
+          regexp: "(#major|#minor|#patch)" # Regex the title should match.
