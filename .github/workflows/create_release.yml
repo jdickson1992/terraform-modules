@@ -1,4 +1,4 @@
-name: 📢 Create Release and Tag
+name: 📢 Tag Creation
 on:
   push:
     branches:
