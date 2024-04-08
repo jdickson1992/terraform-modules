@@ -50,9 +50,11 @@ variable "private_subnet_additional_bits" {
 variable "private_subnet_tags" {
   description = "Private subnet tags"
   type        = map(any)
+  default     = {}
 }
 
 variable "public_subnet_tags" {
   description = "Public subnet tags"
   type        = map(any)
+  default     = {}
 }
